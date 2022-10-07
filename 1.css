@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.obshi {
+  width: 100%;
+  height: 100vh;
+}
+.obshi .glava {
+  width: 100%;
+  height: 750px;
+  background-image: url(./background.png);
+}
+.obshi .glava .navbar {
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  display: flex;
+}
+.obshi .glava .navbar h1 {
+  width: 118px;
+  height: 32px;
+  padding: 15px;
+  margin-left: 150px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+}
+.obshi .glava .navbar a {
+  text-decoration: none;
+  padding-top: 25px;
+  margin-left: 60px;
+  color: #FFFFFF;
+}
+.obshi .glava .navbar .a {
+  background-color: #23A6F0;
+  width: 140px;
+  height: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+  left: 250px;
+}
+.obshi .glava .navbar .a p {
+  position: relative;
+  bottom: 17px;
+  left: 18px;
+}
+.obshi .glava .navbar a:hover {
+  color: #23A6F0;
+}
+.obshi .glava .navbar .a:hover {
+  background-color: #FFFFFF;
+}
+.obshi .glava .met {
+  width: 509px;
+  height: 160px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  color: #FFFFFF;
+  padding-top: 280px;
+  margin-left: 200px;
+}
+.obshi .glava .we {
+  width: 376px;
+  height: 60px;
+  margin-left: 200px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.obshi .glava .di {
+  display: flex;
+  margin-left: 175px;
+  padding-top: 20px;
+}
+.obshi .glava .di a {
+  width: 150px;
+  height: 40px;
+  background-color: #23A6F0;
+  border-radius: 50px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+.obshi .glava .di a p {
+  position: relative;
+  top: 10px;
+  left: 25px;
+  color: #FFFFFF;
+}
+.obshi .glava .di a:hover {
+  background-color: #FFFFFF;
+}
+.obshi .glava .di a:hover p:hover {
+  color: #23A6F0;
+}
+.obshi .glava .inai {
+  width: 328px;
+  height: 515px;
+  position: absolute;
+  background-color: #FFFFFF;
+  top: 150px;
+  border-radius: 10px;
+  left: 800px;
+}
+.obshi .glava .inai h1 {
+  width: 233px;
+  height: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.obshi .glava .inai p {
+  width: 110px;
+  height: 24px;
+  margin-left: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 24px;
+  color: #252B42;
+}
+.obshi .glava .inai input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 248px;
+  margin-left: 30px;
+  background: #F9F9F9;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+}
+.obshi .glava .inai .ab {
+  width: 248px;
+  height: 52px;
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.obshi .glava .inai .ab h1 {
+  background-color: #23A6F0;
+  border-radius: 5px;
+  position: relative;
+  top: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.obshi .glava .inai .ab h1:hover {
+  background-color: #252B42;
+}
+.obshi .saf {
+  width: 100%;
+  height: 650px;
+  background-color: #FFFFFF;
+}
+.obshi .saf .le {
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  color: #252B42;
+}
+.obshi .saf .pr {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  text-align: center;
+  color: #737373;
+}
+.obshi .saf .ob {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.obshi .saf .div1 {
+  width: 308px;
+  height: 385px;
+  margin-left: 150px;
+}
+.obshi .saf .div1 .l {
+  width: 100%;
+  height: 132px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+  display: flex;
+}
+.obshi .saf .div1 .l img {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.obshi .saf .div1 .l h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.obshi .saf .div1 .r {
+  width: 100%;
+  height: 252px;
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+}
+.obshi .saf .div1 .r p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 25px;
+  padding-top: 20px;
+  color: #737373;
+}
+.obshi .saf .div1 .r a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  margin-left: 25px;
+  color: #23A6F0;
+}
+.obshi .saf .div1 a:hover {
+  color: #252B42;
+}
+.obshi .saf .div2 {
+  width: 308px;
+  height: 385px;
+  margin-left: 50px;
+}
+.obshi .saf .div2 .l {
+  width: 100%;
+  height: 132px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+  display: flex;
+}
+.obshi .saf .div2 .l img {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.obshi .saf .div2 .l h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.obshi .saf .div2 .r {
+  width: 100%;
+  height: 252px;
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+}
+.obshi .saf .div2 .r p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 25px;
+  padding-top: 20px;
+  color: #737373;
+}
+.obshi .saf .div2 .r a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  margin-left: 25px;
+  color: #23A6F0;
+}
+.obshi .saf .div2 a:hover {
+  color: #252B42;
+}
+.obshi .saf .div3 {
+  width: 308px;
+  height: 385px;
+  margin-left: 50px;
+}
+.obshi .saf .div3 .l {
+  width: 100%;
+  height: 132px;
+  background-color: #23A6F0;
+  border-radius: 5px;
+  display: flex;
+}
+.obshi .saf .div3 .l img {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.obshi .saf .div3 .l h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-top: 50px;
+  margin-left: 20px;
+}
+.obshi .saf .div3 .r {
+  width: 100%;
+  height: 252px;
+  border: 1px solid #23A6F0;
+  border-radius: 5px;
+}
+.obshi .saf .div3 .r p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  margin-left: 25px;
+  padding-top: 20px;
+  color: #737373;
+}
+.obshi .saf .div3 .r a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  margin-left: 25px;
+  color: #23A6F0;
+}
+.obshi .saf .div3 .r a:hover {
+  color: #252B42;
+}
+.obshi .hovero {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.obshi .hovero .ul {
+  padding-top: 50px;
+  margin-left: 150px;
+  width: 220px;
+}
+.obshi .hovero .ul h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+.obshi .hovero .ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 20px;
+  color: #737373;
+}
+.obshi .hovero .ul .fa-brands {
+  color: #23A6F0;
+  font-size: 20px;
+  padding: 10px;
+  padding-top: 10px;
+}
+.obshi .hovero .ul1 {
+  padding-top: 50px;
+  margin-left: 50px;
+  width: 220px;
+}
+.obshi .hovero .ul1 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+.obshi .hovero .ul1 li {
+  font-family: "Montserrat";
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 20px;
+  color: #737373;
+}
+.obshi .hovero .ul2 {
+  padding-top: 50px;
+  margin-left: 50px;
+  width: 220px;
+}
+.obshi .hovero .ul2 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+.obshi .hovero .ul2 li {
+  font-family: "Montserrat";
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 20px;
+  color: #737373;
+}
+.obshi .hovero .ul3 {
+  padding-top: 50px;
+  margin-left: 50px;
+  width: 220px;
+}
+.obshi .hovero .ul3 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #252B42;
+}
+.obshi .hovero .ul3 li {
+  font-family: "Montserrat";
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 20px;
+  color: #737373;
+}
+.obshi .hovero li:hover {
+  color: #23A6F0;
+}
+.obshi .hovero a {
+  text-decoration: none;
+}
+.obshi .hovero .oxir {
+  width: 100%;
+  height: 50px;
+}
+.obshi .hovero .oxir h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+  color: #737373;
+}/*# sourceMappingURL=1.css.map */
